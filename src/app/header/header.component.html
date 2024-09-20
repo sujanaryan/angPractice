@@ -1,0 +1,21 @@
+<header class="text-gray-900 bg-yellow-400">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-orange-600 mb-4 md:mb-0">
+      <img src="../../assets/logo.png" style="width:3rem;"/>
+      <span class="ml-3 text-xl">Shree Krishna Pranami</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">Home</a>
+      <a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">About</a>
+      <a routerLink="/sermon" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">Sermons</a>
+      <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">Contact</a>
+      <a  routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">{{logInLogout}}</a>
+      <a  routerLink="/account" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" ariaCurrentWhenActive="page" class="mr-5 hover:text-white">Account</a>
+    </nav>
+    <button class="inline-flex items-center bg-red-900 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Donate
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+  </div>
+</header>
